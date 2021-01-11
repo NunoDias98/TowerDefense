@@ -7,6 +7,9 @@ TagManager:
   - TurretSpot
   - Path
   - Enemy
+  - Spawn
+  - End
+  - Waypoint
   layers:
   - Default
   - TransparentFX

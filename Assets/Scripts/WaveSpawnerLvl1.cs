@@ -16,22 +16,31 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     public Text WaveTxt;
     private int numberOfWaves = 10;
 
+     /*
+    public static int vidas;
+    public int startHp = 10;
+
+    public Text hpTxt;*/
+
     // Start is called before the first frame update
     void Start()
     {
+        //vidas = startHp;
+        //hpTxt.text = vidas.ToString();
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(countdown <= 0f)
+     
+        if(countdown <= 0f && wave < numberOfWaves)
         {
             StartCoroutine(StartWave());
             countdown = timeWave;
 
         }
-        countdown -= Time.deltaTime;
+        countdown -= Time.deltaTime;        
     }
 
     IEnumerator StartWave()
@@ -41,7 +50,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
         for (int i = 0; i < wave * 2; i++)
         {
             SpawnEnemy();
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.7f);
         }
         
     }
@@ -49,4 +58,6 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     {
         Instantiate(enemy, spawn.position, spawn.rotation);
     }
+
+    
 }

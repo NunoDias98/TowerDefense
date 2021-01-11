@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 15816630}
   - component: {fileID: 15816629}
   - component: {fileID: 15816628}
+  - component: {fileID: 15816631}
   m_Layer: 0
   m_Name: Spot (127)
   m_TagString: TurretSpot
@@ -214,6 +215,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 15816626}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &15816631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15816626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &49015098
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +240,7 @@ GameObject:
   - component: {fileID: 49015102}
   - component: {fileID: 49015101}
   - component: {fileID: 49015100}
+  - component: {fileID: 49015103}
   m_Layer: 0
   m_Name: Spot (113)
   m_TagString: TurretSpot
@@ -307,6 +322,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49015098}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &49015103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49015098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &83191226
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,6 +347,7 @@ GameObject:
   - component: {fileID: 83191230}
   - component: {fileID: 83191229}
   - component: {fileID: 83191228}
+  - component: {fileID: 83191231}
   m_Layer: 0
   m_Name: Spot (124)
   m_TagString: TurretSpot
@@ -400,6 +429,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83191226}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &83191231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83191226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &102246667
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,6 +454,7 @@ GameObject:
   - component: {fileID: 102246671}
   - component: {fileID: 102246670}
   - component: {fileID: 102246669}
+  - component: {fileID: 102246672}
   m_Layer: 0
   m_Name: Spot (21)
   m_TagString: TurretSpot
@@ -493,6 +536,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102246667}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &102246672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 102246667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &128154669
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +561,7 @@ GameObject:
   - component: {fileID: 128154673}
   - component: {fileID: 128154672}
   - component: {fileID: 128154671}
+  - component: {fileID: 128154674}
   m_Layer: 0
   m_Name: Spot (61)
   m_TagString: TurretSpot
@@ -586,6 +643,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128154669}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &128154674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128154669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &173410514
 GameObject:
   m_ObjectHideFlags: 0
@@ -681,6 +751,7 @@ GameObject:
   - component: {fileID: 176243963}
   - component: {fileID: 176243962}
   - component: {fileID: 176243961}
+  - component: {fileID: 176243964}
   m_Layer: 0
   m_Name: Spot (8)
   m_TagString: TurretSpot
@@ -762,6 +833,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176243959}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &176243964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176243959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &188503096
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,6 +858,7 @@ GameObject:
   - component: {fileID: 188503100}
   - component: {fileID: 188503099}
   - component: {fileID: 188503098}
+  - component: {fileID: 188503101}
   m_Layer: 0
   m_Name: Spot (38)
   m_TagString: TurretSpot
@@ -855,6 +940,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188503096}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &188503101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188503096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &193335119
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,6 +1058,7 @@ GameObject:
   - component: {fileID: 201387195}
   - component: {fileID: 201387194}
   - component: {fileID: 201387193}
+  - component: {fileID: 201387196}
   m_Layer: 0
   m_Name: Spot (126)
   m_TagString: TurretSpot
@@ -1041,6 +1140,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 201387191}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &201387196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201387191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &216074012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,6 +1165,7 @@ GameObject:
   - component: {fileID: 216074016}
   - component: {fileID: 216074015}
   - component: {fileID: 216074014}
+  - component: {fileID: 216074017}
   m_Layer: 0
   m_Name: Spot (73)
   m_TagString: TurretSpot
@@ -1134,6 +1247,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216074012}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &216074017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216074012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &249863713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1146,6 +1272,7 @@ GameObject:
   - component: {fileID: 249863717}
   - component: {fileID: 249863716}
   - component: {fileID: 249863715}
+  - component: {fileID: 249863718}
   m_Layer: 0
   m_Name: Spot (43)
   m_TagString: TurretSpot
@@ -1227,6 +1354,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 249863713}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &249863718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249863713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &295400670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,12 +1390,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295400670}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.085, y: 0.689, z: 0.513}
+  m_LocalRotation: {x: -1.110223e-16, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.08499999, y: 0.07615054, z: 0.5130005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 621106795}
-  m_RootOrder: 4
+  m_Father: {fileID: 621106791}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &299387737
 GameObject:
@@ -1320,6 +1460,7 @@ GameObject:
   - component: {fileID: 301064001}
   - component: {fileID: 301064000}
   - component: {fileID: 301063999}
+  - component: {fileID: 301064002}
   m_Layer: 0
   m_Name: Spot (103)
   m_TagString: TurretSpot
@@ -1401,6 +1542,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301063997}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &301064002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301063997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &312843973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,6 +1567,7 @@ GameObject:
   - component: {fileID: 312843977}
   - component: {fileID: 312843976}
   - component: {fileID: 312843975}
+  - component: {fileID: 312843978}
   m_Layer: 0
   m_Name: Spot (47)
   m_TagString: TurretSpot
@@ -1494,6 +1649,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312843973}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &312843978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312843973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &345807229
 GameObject:
   m_ObjectHideFlags: 0
@@ -1536,6 +1704,7 @@ GameObject:
   - component: {fileID: 351334901}
   - component: {fileID: 351334900}
   - component: {fileID: 351334899}
+  - component: {fileID: 351334902}
   m_Layer: 0
   m_Name: Spot (89)
   m_TagString: TurretSpot
@@ -1617,6 +1786,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351334897}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &351334902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351334897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &356637727
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,6 +1811,7 @@ GameObject:
   - component: {fileID: 356637731}
   - component: {fileID: 356637730}
   - component: {fileID: 356637729}
+  - component: {fileID: 356637732}
   m_Layer: 0
   m_Name: Spot (111)
   m_TagString: TurretSpot
@@ -1710,6 +1893,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356637727}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &356637732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356637727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &375554087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,6 +2103,7 @@ GameObject:
   - component: {fileID: 379531722}
   - component: {fileID: 379531721}
   - component: {fileID: 379531720}
+  - component: {fileID: 379531723}
   m_Layer: 0
   m_Name: Spot (105)
   m_TagString: TurretSpot
@@ -1988,6 +2185,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379531718}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &379531723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379531718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &380756381
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,6 +2341,7 @@ GameObject:
   - component: {fileID: 463617902}
   - component: {fileID: 463617901}
   - component: {fileID: 463617900}
+  - component: {fileID: 463617903}
   m_Layer: 0
   m_Name: Spot (88)
   m_TagString: TurretSpot
@@ -2212,6 +2423,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463617898}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &463617903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463617898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &501795246
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,6 +2448,7 @@ GameObject:
   - component: {fileID: 501795250}
   - component: {fileID: 501795249}
   - component: {fileID: 501795248}
+  - component: {fileID: 501795251}
   m_Layer: 0
   m_Name: Spot (107)
   m_TagString: TurretSpot
@@ -2305,6 +2530,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501795246}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &501795251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501795246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &519152090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2317,6 +2555,7 @@ GameObject:
   - component: {fileID: 519152094}
   - component: {fileID: 519152093}
   - component: {fileID: 519152092}
+  - component: {fileID: 519152095}
   m_Layer: 0
   m_Name: Spot (53)
   m_TagString: TurretSpot
@@ -2398,6 +2637,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519152090}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &519152095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519152090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &527944955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2440,6 +2692,7 @@ GameObject:
   - component: {fileID: 528357927}
   - component: {fileID: 528357926}
   - component: {fileID: 528357925}
+  - component: {fileID: 528357928}
   m_Layer: 0
   m_Name: Spot (78)
   m_TagString: TurretSpot
@@ -2521,6 +2774,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528357923}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &528357928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528357923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &577944689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2533,6 +2799,7 @@ GameObject:
   - component: {fileID: 577944693}
   - component: {fileID: 577944692}
   - component: {fileID: 577944691}
+  - component: {fileID: 577944694}
   m_Layer: 0
   m_Name: Spot (9)
   m_TagString: TurretSpot
@@ -2614,6 +2881,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577944689}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &577944694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577944689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &601512001
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,6 +2906,7 @@ GameObject:
   - component: {fileID: 601512005}
   - component: {fileID: 601512004}
   - component: {fileID: 601512003}
+  - component: {fileID: 601512006}
   m_Layer: 0
   m_Name: Spot (102)
   m_TagString: TurretSpot
@@ -2707,6 +2988,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601512001}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &601512006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601512001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &606964480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2719,6 +3013,7 @@ GameObject:
   - component: {fileID: 606964484}
   - component: {fileID: 606964483}
   - component: {fileID: 606964482}
+  - component: {fileID: 606964485}
   m_Layer: 0
   m_Name: Spot (84)
   m_TagString: TurretSpot
@@ -2800,15 +3095,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606964480}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &606964485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606964480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!4 &621106791 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2614491002960505235, guid: 6c9202dcb9fa18b41afbfbb86654ba3a,
-    type: 3}
-  m_PrefabInstance: {fileID: 2614491003548024820}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &621106795 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2614491002960505247, guid: 6c9202dcb9fa18b41afbfbb86654ba3a,
     type: 3}
   m_PrefabInstance: {fileID: 2614491003548024820}
   m_PrefabAsset: {fileID: 0}
@@ -2854,6 +3156,7 @@ GameObject:
   - component: {fileID: 674037739}
   - component: {fileID: 674037738}
   - component: {fileID: 674037737}
+  - component: {fileID: 674037740}
   m_Layer: 0
   m_Name: Spot (68)
   m_TagString: TurretSpot
@@ -2935,6 +3238,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674037735}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &674037740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674037735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &678524742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3040,6 +3356,7 @@ GameObject:
   - component: {fileID: 684074546}
   - component: {fileID: 684074545}
   - component: {fileID: 684074544}
+  - component: {fileID: 684074547}
   m_Layer: 0
   m_Name: Spot (63)
   m_TagString: TurretSpot
@@ -3121,6 +3438,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684074542}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &684074547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684074542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &706494419
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,6 +3463,7 @@ GameObject:
   - component: {fileID: 706494423}
   - component: {fileID: 706494422}
   - component: {fileID: 706494421}
+  - component: {fileID: 706494424}
   m_Layer: 0
   m_Name: Spot (125)
   m_TagString: TurretSpot
@@ -3214,6 +3545,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706494419}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &706494424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706494419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &742729105
 GameObject:
   m_ObjectHideFlags: 0
@@ -3256,6 +3600,7 @@ GameObject:
   - component: {fileID: 781416444}
   - component: {fileID: 781416443}
   - component: {fileID: 781416442}
+  - component: {fileID: 781416445}
   m_Layer: 0
   m_Name: Spot (34)
   m_TagString: TurretSpot
@@ -3337,6 +3682,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781416440}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &781416445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781416440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &789957961
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,6 +3707,7 @@ GameObject:
   - component: {fileID: 789957965}
   - component: {fileID: 789957964}
   - component: {fileID: 789957963}
+  - component: {fileID: 789957966}
   m_Layer: 0
   m_Name: Spot (66)
   m_TagString: TurretSpot
@@ -3430,6 +3789,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789957961}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &789957966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789957961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &790100346
 GameObject:
   m_ObjectHideFlags: 0
@@ -3442,6 +3814,7 @@ GameObject:
   - component: {fileID: 790100350}
   - component: {fileID: 790100349}
   - component: {fileID: 790100348}
+  - component: {fileID: 790100351}
   m_Layer: 0
   m_Name: Spot (41)
   m_TagString: TurretSpot
@@ -3523,6 +3896,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790100346}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &790100351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790100346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &818496764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3565,6 +3951,7 @@ GameObject:
   - component: {fileID: 821709833}
   - component: {fileID: 821709832}
   - component: {fileID: 821709831}
+  - component: {fileID: 821709834}
   m_Layer: 0
   m_Name: Spot (29)
   m_TagString: TurretSpot
@@ -3646,6 +4033,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821709829}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &821709834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821709829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &840122730
 GameObject:
   m_ObjectHideFlags: 0
@@ -3658,6 +4058,7 @@ GameObject:
   - component: {fileID: 840122734}
   - component: {fileID: 840122733}
   - component: {fileID: 840122732}
+  - component: {fileID: 840122735}
   m_Layer: 0
   m_Name: Spot (10)
   m_TagString: TurretSpot
@@ -3739,6 +4140,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840122730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &840122735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840122730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &860062252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,6 +4165,7 @@ GameObject:
   - component: {fileID: 860062256}
   - component: {fileID: 860062255}
   - component: {fileID: 860062254}
+  - component: {fileID: 860062257}
   m_Layer: 0
   m_Name: Spot (45)
   m_TagString: TurretSpot
@@ -3832,6 +4247,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860062252}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &860062257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860062252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &886379198
 GameObject:
   m_ObjectHideFlags: 0
@@ -3855,12 +4283,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886379198}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.084, y: 0.68, z: 0.531}
+  m_LocalRotation: {x: -1.110223e-16, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.08399998, y: 0.0735, z: 0.5145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 621106795}
-  m_RootOrder: 3
+  m_Father: {fileID: 621106791}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &896669386
 GameObject:
@@ -3874,6 +4302,7 @@ GameObject:
   - component: {fileID: 896669390}
   - component: {fileID: 896669389}
   - component: {fileID: 896669388}
+  - component: {fileID: 896669391}
   m_Layer: 0
   m_Name: Spot (92)
   m_TagString: TurretSpot
@@ -3955,6 +4384,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896669386}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &896669391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896669386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &923127613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3997,6 +4439,7 @@ GameObject:
   - component: {fileID: 924007872}
   - component: {fileID: 924007871}
   - component: {fileID: 924007870}
+  - component: {fileID: 924007873}
   m_Layer: 0
   m_Name: Spot (85)
   m_TagString: TurretSpot
@@ -4078,6 +4521,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924007868}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &924007873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924007868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &924021600
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,6 +4546,7 @@ GameObject:
   - component: {fileID: 924021604}
   - component: {fileID: 924021603}
   - component: {fileID: 924021602}
+  - component: {fileID: 924021605}
   m_Layer: 0
   m_Name: Spot (40)
   m_TagString: TurretSpot
@@ -4171,6 +4628,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924021600}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &924021605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924021600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &929746555
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,6 +4653,7 @@ GameObject:
   - component: {fileID: 929746559}
   - component: {fileID: 929746558}
   - component: {fileID: 929746557}
+  - component: {fileID: 929746560}
   m_Layer: 0
   m_Name: Spot (95)
   m_TagString: TurretSpot
@@ -4264,6 +4735,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929746555}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &929746560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929746555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &936646791
 GameObject:
   m_ObjectHideFlags: 0
@@ -4276,6 +4760,7 @@ GameObject:
   - component: {fileID: 936646795}
   - component: {fileID: 936646794}
   - component: {fileID: 936646793}
+  - component: {fileID: 936646796}
   m_Layer: 0
   m_Name: Spot (33)
   m_TagString: TurretSpot
@@ -4357,6 +4842,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936646791}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &936646796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936646791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &940620118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,6 +4867,7 @@ GameObject:
   - component: {fileID: 940620122}
   - component: {fileID: 940620121}
   - component: {fileID: 940620120}
+  - component: {fileID: 940620123}
   m_Layer: 0
   m_Name: Spot (64)
   m_TagString: TurretSpot
@@ -4450,6 +4949,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940620118}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &940620123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940620118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &971056668
 GameObject:
   m_ObjectHideFlags: 0
@@ -4528,6 +5040,7 @@ GameObject:
   - component: {fileID: 973687119}
   - component: {fileID: 973687118}
   - component: {fileID: 973687117}
+  - component: {fileID: 973687120}
   m_Layer: 0
   m_Name: Spot (104)
   m_TagString: TurretSpot
@@ -4609,6 +5122,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973687115}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &973687120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973687115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &980859150
 GameObject:
   m_ObjectHideFlags: 0
@@ -4621,6 +5147,7 @@ GameObject:
   - component: {fileID: 980859154}
   - component: {fileID: 980859153}
   - component: {fileID: 980859152}
+  - component: {fileID: 980859155}
   m_Layer: 0
   m_Name: Spot (123)
   m_TagString: TurretSpot
@@ -4702,6 +5229,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980859150}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &980859155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980859150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1000197228
 GameObject:
   m_ObjectHideFlags: 0
@@ -4714,6 +5254,7 @@ GameObject:
   - component: {fileID: 1000197232}
   - component: {fileID: 1000197231}
   - component: {fileID: 1000197230}
+  - component: {fileID: 1000197233}
   m_Layer: 0
   m_Name: Spot (94)
   m_TagString: TurretSpot
@@ -4795,6 +5336,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000197228}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1000197233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000197228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1017512918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4807,6 +5361,7 @@ GameObject:
   - component: {fileID: 1017512922}
   - component: {fileID: 1017512921}
   - component: {fileID: 1017512920}
+  - component: {fileID: 1017512923}
   m_Layer: 0
   m_Name: Spot (109)
   m_TagString: TurretSpot
@@ -4888,6 +5443,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017512918}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1017512923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017512918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1019441641
 GameObject:
   m_ObjectHideFlags: 0
@@ -4900,6 +5468,7 @@ GameObject:
   - component: {fileID: 1019441645}
   - component: {fileID: 1019441644}
   - component: {fileID: 1019441643}
+  - component: {fileID: 1019441646}
   m_Layer: 0
   m_Name: Spot (99)
   m_TagString: TurretSpot
@@ -4981,6 +5550,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019441641}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1019441646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019441641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1038336054
 GameObject:
   m_ObjectHideFlags: 0
@@ -4993,6 +5575,7 @@ GameObject:
   - component: {fileID: 1038336058}
   - component: {fileID: 1038336057}
   - component: {fileID: 1038336056}
+  - component: {fileID: 1038336059}
   m_Layer: 0
   m_Name: Spot (16)
   m_TagString: TurretSpot
@@ -5074,6 +5657,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038336054}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1038336059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038336054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1079094865
 GameObject:
   m_ObjectHideFlags: 0
@@ -5086,6 +5682,7 @@ GameObject:
   - component: {fileID: 1079094869}
   - component: {fileID: 1079094868}
   - component: {fileID: 1079094867}
+  - component: {fileID: 1079094870}
   m_Layer: 0
   m_Name: Spot (15)
   m_TagString: TurretSpot
@@ -5167,6 +5764,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1079094865}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1079094870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079094865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1080196482
 GameObject:
   m_ObjectHideFlags: 0
@@ -5179,6 +5789,7 @@ GameObject:
   - component: {fileID: 1080196486}
   - component: {fileID: 1080196485}
   - component: {fileID: 1080196484}
+  - component: {fileID: 1080196487}
   m_Layer: 0
   m_Name: Spot (121)
   m_TagString: TurretSpot
@@ -5260,6 +5871,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080196482}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1080196487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080196482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1086492628
 GameObject:
   m_ObjectHideFlags: 0
@@ -5272,6 +5896,7 @@ GameObject:
   - component: {fileID: 1086492632}
   - component: {fileID: 1086492631}
   - component: {fileID: 1086492630}
+  - component: {fileID: 1086492633}
   m_Layer: 0
   m_Name: Spot (13)
   m_TagString: TurretSpot
@@ -5353,6 +5978,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1086492628}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1086492633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086492628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1098591187
 GameObject:
   m_ObjectHideFlags: 0
@@ -5365,6 +6003,7 @@ GameObject:
   - component: {fileID: 1098591191}
   - component: {fileID: 1098591190}
   - component: {fileID: 1098591189}
+  - component: {fileID: 1098591192}
   m_Layer: 0
   m_Name: Spot (1)
   m_TagString: TurretSpot
@@ -5446,6 +6085,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098591187}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1098591192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098591187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1100000294
 GameObject:
   m_ObjectHideFlags: 0
@@ -5458,6 +6110,7 @@ GameObject:
   - component: {fileID: 1100000298}
   - component: {fileID: 1100000297}
   - component: {fileID: 1100000296}
+  - component: {fileID: 1100000299}
   m_Layer: 0
   m_Name: Spot (119)
   m_TagString: TurretSpot
@@ -5539,6 +6192,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100000294}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1100000299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100000294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1103305213
 GameObject:
   m_ObjectHideFlags: 0
@@ -5551,6 +6217,7 @@ GameObject:
   - component: {fileID: 1103305217}
   - component: {fileID: 1103305216}
   - component: {fileID: 1103305215}
+  - component: {fileID: 1103305218}
   m_Layer: 0
   m_Name: Spot (93)
   m_TagString: TurretSpot
@@ -5632,6 +6299,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103305213}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1103305218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103305213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1108611070
 GameObject:
   m_ObjectHideFlags: 0
@@ -5769,6 +6449,7 @@ GameObject:
   - component: {fileID: 1109246367}
   - component: {fileID: 1109246366}
   - component: {fileID: 1109246365}
+  - component: {fileID: 1109246368}
   m_Layer: 0
   m_Name: Spot (112)
   m_TagString: TurretSpot
@@ -5850,6 +6531,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109246363}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1109246368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109246363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1109813695
 GameObject:
   m_ObjectHideFlags: 0
@@ -5955,6 +6649,7 @@ GameObject:
   - component: {fileID: 1133919522}
   - component: {fileID: 1133919521}
   - component: {fileID: 1133919520}
+  - component: {fileID: 1133919523}
   m_Layer: 0
   m_Name: Spot (18)
   m_TagString: TurretSpot
@@ -6036,6 +6731,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133919518}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1133919523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133919518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1145478476
 GameObject:
   m_ObjectHideFlags: 0
@@ -6048,6 +6756,7 @@ GameObject:
   - component: {fileID: 1145478480}
   - component: {fileID: 1145478479}
   - component: {fileID: 1145478478}
+  - component: {fileID: 1145478481}
   m_Layer: 0
   m_Name: Spot (86)
   m_TagString: TurretSpot
@@ -6129,6 +6838,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145478476}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1145478481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145478476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1157651372
 GameObject:
   m_ObjectHideFlags: 0
@@ -6141,6 +6863,7 @@ GameObject:
   - component: {fileID: 1157651376}
   - component: {fileID: 1157651375}
   - component: {fileID: 1157651374}
+  - component: {fileID: 1157651377}
   m_Layer: 0
   m_Name: Spot (70)
   m_TagString: TurretSpot
@@ -6222,6 +6945,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157651372}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1157651377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157651372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1189465683
 GameObject:
   m_ObjectHideFlags: 0
@@ -6312,6 +7048,7 @@ GameObject:
   - component: {fileID: 1200640467}
   - component: {fileID: 1200640466}
   - component: {fileID: 1200640465}
+  - component: {fileID: 1200640468}
   m_Layer: 0
   m_Name: Spot (32)
   m_TagString: TurretSpot
@@ -6393,6 +7130,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200640463}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1200640468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200640463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1209065724
 GameObject:
   m_ObjectHideFlags: 0
@@ -6498,6 +7248,7 @@ GameObject:
   - component: {fileID: 1230680117}
   - component: {fileID: 1230680116}
   - component: {fileID: 1230680115}
+  - component: {fileID: 4163396766655337402}
   m_Layer: 0
   m_Name: Spot
   m_TagString: TurretSpot
@@ -6591,6 +7342,7 @@ GameObject:
   - component: {fileID: 1236443120}
   - component: {fileID: 1236443119}
   - component: {fileID: 1236443118}
+  - component: {fileID: 1236443121}
   m_Layer: 0
   m_Name: Spot (28)
   m_TagString: TurretSpot
@@ -6672,6 +7424,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236443116}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1236443121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236443116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1244193917
 GameObject:
   m_ObjectHideFlags: 0
@@ -6731,6 +7496,7 @@ GameObject:
   - component: {fileID: 1252855131}
   - component: {fileID: 1252855130}
   - component: {fileID: 1252855129}
+  - component: {fileID: 1252855132}
   m_Layer: 0
   m_Name: Spot (75)
   m_TagString: TurretSpot
@@ -6812,6 +7578,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252855127}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1252855132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252855127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1258613620
 GameObject:
   m_ObjectHideFlags: 0
@@ -6824,6 +7603,7 @@ GameObject:
   - component: {fileID: 1258613624}
   - component: {fileID: 1258613623}
   - component: {fileID: 1258613622}
+  - component: {fileID: 1258613625}
   m_Layer: 0
   m_Name: Spot (96)
   m_TagString: TurretSpot
@@ -6905,6 +7685,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258613620}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1258613625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258613620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1320050201
 GameObject:
   m_ObjectHideFlags: 0
@@ -6917,6 +7710,7 @@ GameObject:
   - component: {fileID: 1320050205}
   - component: {fileID: 1320050204}
   - component: {fileID: 1320050203}
+  - component: {fileID: 1320050206}
   m_Layer: 0
   m_Name: Spot (74)
   m_TagString: TurretSpot
@@ -6998,6 +7792,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320050201}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1320050206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320050201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1351096090
 GameObject:
   m_ObjectHideFlags: 0
@@ -7010,6 +7817,7 @@ GameObject:
   - component: {fileID: 1351096094}
   - component: {fileID: 1351096093}
   - component: {fileID: 1351096092}
+  - component: {fileID: 1351096095}
   m_Layer: 0
   m_Name: Spot (19)
   m_TagString: TurretSpot
@@ -7091,6 +7899,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351096090}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1351096095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351096090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1362224095
 GameObject:
   m_ObjectHideFlags: 0
@@ -7103,6 +7924,7 @@ GameObject:
   - component: {fileID: 1362224099}
   - component: {fileID: 1362224098}
   - component: {fileID: 1362224097}
+  - component: {fileID: 1362224100}
   m_Layer: 0
   m_Name: Spot (117)
   m_TagString: TurretSpot
@@ -7184,6 +8006,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362224095}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1362224100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362224095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1379925948
 GameObject:
   m_ObjectHideFlags: 0
@@ -7196,6 +8031,7 @@ GameObject:
   - component: {fileID: 1379925952}
   - component: {fileID: 1379925951}
   - component: {fileID: 1379925950}
+  - component: {fileID: 1379925953}
   m_Layer: 0
   m_Name: Spot (11)
   m_TagString: TurretSpot
@@ -7277,6 +8113,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379925948}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1379925953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379925948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1389815782
 GameObject:
   m_ObjectHideFlags: 0
@@ -7289,6 +8138,7 @@ GameObject:
   - component: {fileID: 1389815786}
   - component: {fileID: 1389815785}
   - component: {fileID: 1389815784}
+  - component: {fileID: 1389815787}
   m_Layer: 0
   m_Name: Spot (80)
   m_TagString: TurretSpot
@@ -7370,6 +8220,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1389815782}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1389815787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389815782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1433306519
 GameObject:
   m_ObjectHideFlags: 0
@@ -7412,6 +8275,7 @@ GameObject:
   - component: {fileID: 1442106408}
   - component: {fileID: 1442106407}
   - component: {fileID: 1442106406}
+  - component: {fileID: 1442106409}
   m_Layer: 0
   m_Name: Spot (118)
   m_TagString: TurretSpot
@@ -7493,6 +8357,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1442106404}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1442106409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442106404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1448829120
 GameObject:
   m_ObjectHideFlags: 0
@@ -7505,6 +8382,7 @@ GameObject:
   - component: {fileID: 1448829124}
   - component: {fileID: 1448829123}
   - component: {fileID: 1448829122}
+  - component: {fileID: 1448829125}
   m_Layer: 0
   m_Name: Spot (98)
   m_TagString: TurretSpot
@@ -7586,6 +8464,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448829120}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1448829125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448829120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1475723746
 GameObject:
   m_ObjectHideFlags: 0
@@ -7598,6 +8489,7 @@ GameObject:
   - component: {fileID: 1475723750}
   - component: {fileID: 1475723749}
   - component: {fileID: 1475723748}
+  - component: {fileID: 1475723751}
   m_Layer: 0
   m_Name: Spot (14)
   m_TagString: TurretSpot
@@ -7679,6 +8571,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475723746}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1475723751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475723746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1482433367
 GameObject:
   m_ObjectHideFlags: 0
@@ -7791,6 +8696,7 @@ GameObject:
   - component: {fileID: 1499433448}
   - component: {fileID: 1499433447}
   - component: {fileID: 1499433446}
+  - component: {fileID: 1499433449}
   m_Layer: 0
   m_Name: Spot (6)
   m_TagString: TurretSpot
@@ -7872,6 +8778,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499433444}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1499433449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499433444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1502546020
 GameObject:
   m_ObjectHideFlags: 0
@@ -7963,6 +8882,7 @@ GameObject:
   - component: {fileID: 1506130738}
   - component: {fileID: 1506130737}
   - component: {fileID: 1506130736}
+  - component: {fileID: 1506130739}
   m_Layer: 0
   m_Name: Spot (106)
   m_TagString: TurretSpot
@@ -8044,6 +8964,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506130734}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1506130739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506130734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1535357989
 GameObject:
   m_ObjectHideFlags: 0
@@ -8056,6 +8989,7 @@ GameObject:
   - component: {fileID: 1535357993}
   - component: {fileID: 1535357992}
   - component: {fileID: 1535357991}
+  - component: {fileID: 1535357994}
   m_Layer: 0
   m_Name: Spot (46)
   m_TagString: TurretSpot
@@ -8137,6 +9071,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535357989}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1535357994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535357989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1592156296
 GameObject:
   m_ObjectHideFlags: 0
@@ -8149,6 +9096,7 @@ GameObject:
   - component: {fileID: 1592156300}
   - component: {fileID: 1592156299}
   - component: {fileID: 1592156298}
+  - component: {fileID: 1592156301}
   m_Layer: 0
   m_Name: Spot (22)
   m_TagString: TurretSpot
@@ -8230,6 +9178,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1592156296}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1592156301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592156296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1602096895
 GameObject:
   m_ObjectHideFlags: 0
@@ -8242,6 +9203,7 @@ GameObject:
   - component: {fileID: 1602096899}
   - component: {fileID: 1602096898}
   - component: {fileID: 1602096897}
+  - component: {fileID: 1602096900}
   m_Layer: 0
   m_Name: Spot (44)
   m_TagString: TurretSpot
@@ -8323,6 +9285,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602096895}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1602096900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602096895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1642221494
 GameObject:
   m_ObjectHideFlags: 0
@@ -8335,6 +9310,7 @@ GameObject:
   - component: {fileID: 1642221498}
   - component: {fileID: 1642221497}
   - component: {fileID: 1642221496}
+  - component: {fileID: 1642221499}
   m_Layer: 0
   m_Name: Spot (39)
   m_TagString: TurretSpot
@@ -8416,6 +9392,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642221494}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1642221499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642221494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
+--- !u!1 &1677911691 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8542968300411986519, guid: 1d4b5d255b30aec42b61413c969630e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 4023092414208621370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1705442414
 GameObject:
   m_ObjectHideFlags: 0
@@ -8428,6 +9423,7 @@ GameObject:
   - component: {fileID: 1705442418}
   - component: {fileID: 1705442417}
   - component: {fileID: 1705442416}
+  - component: {fileID: 1705442419}
   m_Layer: 0
   m_Name: Spot (50)
   m_TagString: TurretSpot
@@ -8509,6 +9505,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705442414}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1705442419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705442414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1719913625
 GameObject:
   m_ObjectHideFlags: 0
@@ -8521,6 +9530,7 @@ GameObject:
   - component: {fileID: 1719913629}
   - component: {fileID: 1719913628}
   - component: {fileID: 1719913627}
+  - component: {fileID: 1719913630}
   m_Layer: 0
   m_Name: Spot (72)
   m_TagString: TurretSpot
@@ -8602,6 +9612,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719913625}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1719913630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719913625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1736268279
 GameObject:
   m_ObjectHideFlags: 0
@@ -8614,6 +9637,7 @@ GameObject:
   - component: {fileID: 1736268283}
   - component: {fileID: 1736268282}
   - component: {fileID: 1736268281}
+  - component: {fileID: 1736268284}
   m_Layer: 0
   m_Name: Spot (35)
   m_TagString: TurretSpot
@@ -8695,6 +9719,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736268279}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1736268284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736268279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1740199886
 GameObject:
   m_ObjectHideFlags: 0
@@ -8707,6 +9744,7 @@ GameObject:
   - component: {fileID: 1740199890}
   - component: {fileID: 1740199889}
   - component: {fileID: 1740199888}
+  - component: {fileID: 1740199891}
   m_Layer: 0
   m_Name: Spot (27)
   m_TagString: TurretSpot
@@ -8788,6 +9826,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740199886}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1740199891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740199886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1820844037
 GameObject:
   m_ObjectHideFlags: 0
@@ -8830,6 +9881,7 @@ GameObject:
   - component: {fileID: 1829724899}
   - component: {fileID: 1829724898}
   - component: {fileID: 1829724897}
+  - component: {fileID: 1829724900}
   m_Layer: 0
   m_Name: Spot (42)
   m_TagString: TurretSpot
@@ -8911,6 +9963,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829724895}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1829724900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829724895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1833540901
 GameObject:
   m_ObjectHideFlags: 0
@@ -8923,6 +9988,7 @@ GameObject:
   - component: {fileID: 1833540905}
   - component: {fileID: 1833540904}
   - component: {fileID: 1833540903}
+  - component: {fileID: 1833540906}
   m_Layer: 0
   m_Name: Spot (116)
   m_TagString: TurretSpot
@@ -9004,6 +10070,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833540901}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1833540906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833540901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1839527899
 GameObject:
   m_ObjectHideFlags: 0
@@ -9016,6 +10095,7 @@ GameObject:
   - component: {fileID: 1839527903}
   - component: {fileID: 1839527902}
   - component: {fileID: 1839527901}
+  - component: {fileID: 1839527904}
   m_Layer: 0
   m_Name: Spot (87)
   m_TagString: TurretSpot
@@ -9097,6 +10177,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1839527899}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1839527904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839527899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1867937405
 GameObject:
   m_ObjectHideFlags: 0
@@ -9109,6 +10202,7 @@ GameObject:
   - component: {fileID: 1867937409}
   - component: {fileID: 1867937408}
   - component: {fileID: 1867937407}
+  - component: {fileID: 1867937410}
   m_Layer: 0
   m_Name: Spot (71)
   m_TagString: TurretSpot
@@ -9190,6 +10284,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867937405}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1867937410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867937405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1868881701
 GameObject:
   m_ObjectHideFlags: 0
@@ -9202,6 +10309,7 @@ GameObject:
   - component: {fileID: 1868881705}
   - component: {fileID: 1868881704}
   - component: {fileID: 1868881703}
+  - component: {fileID: 1868881706}
   m_Layer: 0
   m_Name: Spot (82)
   m_TagString: TurretSpot
@@ -9283,6 +10391,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868881701}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1868881706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868881701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1875521225
 GameObject:
   m_ObjectHideFlags: 0
@@ -9295,6 +10416,7 @@ GameObject:
   - component: {fileID: 1875521229}
   - component: {fileID: 1875521228}
   - component: {fileID: 1875521227}
+  - component: {fileID: 1875521230}
   m_Layer: 0
   m_Name: Spot (12)
   m_TagString: TurretSpot
@@ -9376,6 +10498,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875521225}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1875521230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875521225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1881045151
 GameObject:
   m_ObjectHideFlags: 0
@@ -9388,6 +10523,7 @@ GameObject:
   - component: {fileID: 1881045155}
   - component: {fileID: 1881045154}
   - component: {fileID: 1881045153}
+  - component: {fileID: 1881045156}
   m_Layer: 0
   m_Name: Spot (52)
   m_TagString: TurretSpot
@@ -9469,6 +10605,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881045151}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1881045156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881045151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1890682811
 GameObject:
   m_ObjectHideFlags: 0
@@ -9481,6 +10630,7 @@ GameObject:
   - component: {fileID: 1890682815}
   - component: {fileID: 1890682814}
   - component: {fileID: 1890682813}
+  - component: {fileID: 1890682816}
   m_Layer: 0
   m_Name: Spot (97)
   m_TagString: TurretSpot
@@ -9562,6 +10712,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890682811}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1890682816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890682811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1907269670
 GameObject:
   m_ObjectHideFlags: 0
@@ -9574,6 +10737,7 @@ GameObject:
   - component: {fileID: 1907269674}
   - component: {fileID: 1907269673}
   - component: {fileID: 1907269672}
+  - component: {fileID: 1907269675}
   m_Layer: 0
   m_Name: Spot (4)
   m_TagString: TurretSpot
@@ -9655,6 +10819,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907269670}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1907269675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907269670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1909769986
 GameObject:
   m_ObjectHideFlags: 0
@@ -9667,6 +10844,7 @@ GameObject:
   - component: {fileID: 1909769990}
   - component: {fileID: 1909769989}
   - component: {fileID: 1909769988}
+  - component: {fileID: 1909769991}
   m_Layer: 0
   m_Name: Spot (59)
   m_TagString: TurretSpot
@@ -9748,6 +10926,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909769986}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1909769991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909769986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1913679754
 GameObject:
   m_ObjectHideFlags: 0
@@ -9760,6 +10951,7 @@ GameObject:
   - component: {fileID: 1913679758}
   - component: {fileID: 1913679757}
   - component: {fileID: 1913679756}
+  - component: {fileID: 1913679759}
   m_Layer: 0
   m_Name: Spot (57)
   m_TagString: TurretSpot
@@ -9841,6 +11033,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913679754}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1913679759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913679754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1940577122
 GameObject:
   m_ObjectHideFlags: 0
@@ -9946,6 +11151,7 @@ GameObject:
   - component: {fileID: 1942924994}
   - component: {fileID: 1942924993}
   - component: {fileID: 1942924992}
+  - component: {fileID: 1942924995}
   m_Layer: 0
   m_Name: Spot (2)
   m_TagString: TurretSpot
@@ -10027,6 +11233,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942924990}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1942924995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942924990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1958754851
 GameObject:
   m_ObjectHideFlags: 0
@@ -10203,6 +11422,7 @@ GameObject:
   - component: {fileID: 1972239259}
   - component: {fileID: 1972239258}
   - component: {fileID: 1972239257}
+  - component: {fileID: 1972239260}
   m_Layer: 0
   m_Name: Spot (79)
   m_TagString: TurretSpot
@@ -10284,6 +11504,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972239255}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1972239260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972239255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &1972786330
 GameObject:
   m_ObjectHideFlags: 0
@@ -10389,6 +11622,7 @@ GameObject:
   - component: {fileID: 2005676259}
   - component: {fileID: 2005676258}
   - component: {fileID: 2005676257}
+  - component: {fileID: 2005676260}
   m_Layer: 0
   m_Name: Spot (36)
   m_TagString: TurretSpot
@@ -10470,6 +11704,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005676255}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2005676260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005676255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &2050677632
 GameObject:
   m_ObjectHideFlags: 0
@@ -10482,6 +11729,7 @@ GameObject:
   - component: {fileID: 2050677636}
   - component: {fileID: 2050677635}
   - component: {fileID: 2050677634}
+  - component: {fileID: 2050677637}
   m_Layer: 0
   m_Name: Spot (20)
   m_TagString: TurretSpot
@@ -10563,6 +11811,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050677632}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2050677637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050677632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &2068699639
 GameObject:
   m_ObjectHideFlags: 0
@@ -10575,6 +11836,7 @@ GameObject:
   - component: {fileID: 2068699643}
   - component: {fileID: 2068699642}
   - component: {fileID: 2068699641}
+  - component: {fileID: 2068699644}
   m_Layer: 0
   m_Name: Spot (26)
   m_TagString: TurretSpot
@@ -10656,6 +11918,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068699639}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2068699644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068699639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &2086406164
 GameObject:
   m_ObjectHideFlags: 0
@@ -10668,6 +11943,7 @@ GameObject:
   - component: {fileID: 2086406168}
   - component: {fileID: 2086406167}
   - component: {fileID: 2086406166}
+  - component: {fileID: 2086406169}
   m_Layer: 0
   m_Name: Spot (37)
   m_TagString: TurretSpot
@@ -10749,6 +12025,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086406164}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2086406169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086406164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &2104713836
 GameObject:
   m_ObjectHideFlags: 0
@@ -10761,6 +12050,7 @@ GameObject:
   - component: {fileID: 2104713840}
   - component: {fileID: 2104713839}
   - component: {fileID: 2104713838}
+  - component: {fileID: 2104713841}
   m_Layer: 0
   m_Name: Spot (81)
   m_TagString: TurretSpot
@@ -10842,6 +12132,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104713836}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2104713841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104713836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1 &2117862808
 GameObject:
   m_ObjectHideFlags: 0
@@ -10854,6 +12157,7 @@ GameObject:
   - component: {fileID: 2117862812}
   - component: {fileID: 2117862811}
   - component: {fileID: 2117862810}
+  - component: {fileID: 2117862813}
   m_Layer: 0
   m_Name: Spot (51)
   m_TagString: TurretSpot
@@ -10935,6 +12239,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117862808}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2117862813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117862808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1001 &2614491003548024820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10988,7 +12305,8 @@ PrefabInstance:
         type: 3}
       propertyPath: bala
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3822257001675188939, guid: f279374b659587f4a8ecf5141fabe51f,
+        type: 3}
     - target: {fileID: 218790032005589209, guid: 6c9202dcb9fa18b41afbfbb86654ba3a,
         type: 3}
       propertyPath: firePos1
@@ -10999,6 +12317,16 @@ PrefabInstance:
       propertyPath: firePos2
       value: 
       objectReference: {fileID: 295400671}
+    - target: {fileID: 2614491002953303669, guid: 6c9202dcb9fa18b41afbfbb86654ba3a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 44a5d5b3da32a23438f8b4714f5c7fa1, type: 2}
+    - target: {fileID: 2614491002953303669, guid: 6c9202dcb9fa18b41afbfbb86654ba3a,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2614491002960505247, guid: 6c9202dcb9fa18b41afbfbb86654ba3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11061,6 +12389,88 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c9202dcb9fa18b41afbfbb86654ba3a, type: 3}
+--- !u!1001 &4023092414208621370
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 960
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 521.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927307541104528039, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542968300411986519, guid: 1d4b5d255b30aec42b61413c969630e2,
+        type: 3}
+      propertyPath: m_Name
+      value: TurretShop
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d4b5d255b30aec42b61413c969630e2, type: 3}
+--- !u!114 &4163396766655337402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230680113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretShop: {fileID: 1677911691}
 --- !u!1001 &6760560675776496503
 PrefabInstance:
   m_ObjectHideFlags: 0

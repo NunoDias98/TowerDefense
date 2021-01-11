@@ -13,6 +13,8 @@ public class Turret1Script : MonoBehaviour
     public float rate = 0.3f;
     public float nextAttack;
 
+    private int damage = 2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -78,8 +80,20 @@ public class Turret1Script : MonoBehaviour
 
     void Shoot(Vector3 dir)
     {
-        Instantiate(bala, firePos1.position, firePos1.rotation);
-        Instantiate(bala, firePos2.position, firePos2.rotation);
+        /*
+        Animator anim = GetComponent<Animator>();
+        anim.Play("Take 001");*/
+
+        GameObject disparoBala1 = (GameObject)Instantiate(bala, firePos1.position, firePos1.rotation);
+        GameObject disparoBala2 = (GameObject)Instantiate(bala, firePos2.position, firePos2.rotation);
+        BalaMovement bala1 = disparoBala1.GetComponent<BalaMovement>();
+        BalaMovement bala2 = disparoBala2.GetComponent<BalaMovement>();
+        if ( bala1 != null && bala2 != null)
+        {
+            bala1.shootTarget(enemy);
+            bala2.shootTarget(enemy);
+        }
+        
     }
 }
 

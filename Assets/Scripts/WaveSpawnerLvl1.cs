@@ -12,6 +12,8 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     public float timeWave = 5f;
     private float countdown = 2f;
 
+
+    public static int wave1;
     private int wave = 0;
     public Text WaveTxt;
     private int numberOfWaves = 10;
@@ -24,10 +26,11 @@ public class WaveSpawnerLvl1 : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
+        
     {
         //vidas = startHp;
         //hpTxt.text = vidas.ToString();
-        
+        wave1 = wave;
     }
 
     // Update is called once per frame
@@ -46,6 +49,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     IEnumerator StartWave()
     {
         wave++;
+        wave1 = wave;
         WaveTxt.text = "Wave: " + wave.ToString() + "/" + numberOfWaves.ToString();
         for (int i = 0; i < wave * 2; i++)
         {

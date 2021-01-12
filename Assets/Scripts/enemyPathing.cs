@@ -10,7 +10,7 @@ public class enemyPathing : MonoBehaviour
     private Transform target;
     private int wavepointIndex = 0;
 
-    public Text hp;
+
     private int hpEnemy = (WaveSpawnerLvl1.wave1 + 1) * 2;
 
     void Start()
@@ -29,19 +29,20 @@ public class enemyPathing : MonoBehaviour
         {
             nextWayPoint();
         }
-        /*
+        
         if (WaveSpawnerLvl1.vidas < 1)
         {
             Time.timeScale = 0f;
             //pop up perdeu
-        }*/
+        }
     }
 
     void nextWayPoint()
     {
         if(wavepointIndex >= Waypoints.waypoints.Length - 1)
         {
-            //WaveSpawnerLvl1.vidas--;
+            WaveSpawnerLvl1.vidas--;
+            Debug.Log(WaveSpawnerLvl1.vidas);
             Destroy(gameObject);   
             return;
         }

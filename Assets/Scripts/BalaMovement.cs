@@ -6,6 +6,8 @@ public class BalaMovement : MonoBehaviour
 {
     private Transform target;
     private float speed = 10f;
+
+    private int dano = 1;
     // Start is called before the first frame update
     public void shootTarget(Transform alvo)
     {

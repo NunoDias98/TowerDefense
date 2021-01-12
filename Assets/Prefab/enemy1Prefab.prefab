@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  hp: {fileID: 633968903430857798, guid: f2767a4fa6ef0ce47954dd407ac4593d, type: 3}
+  hp: {fileID: 4852604626447495914, guid: f2767a4fa6ef0ce47954dd407ac4593d, type: 3}
 --- !u!1 &6693731515062564396
 GameObject:
   m_ObjectHideFlags: 0

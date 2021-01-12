@@ -5,13 +5,17 @@ using UnityEngine.UI;
 
 public class TurretPlacement : MonoBehaviour
 {
-    public GameObject turretShop;
-    private float countdown = 3f;
+    private float countdown = 3.5f;
 
     private Color corInicial;
+
+    private GameObject turret1;
+
+    BuildManager buildManager;
     // Start is called before the first frame update
     void Start()
     {
+        buildManager = BuildManager.instance;
         corInicial = GetComponent<Renderer>().material.color;
     }
 
@@ -20,7 +24,6 @@ public class TurretPlacement : MonoBehaviour
     {
         if (countdown <= 0f)
         {
-            turretShop.SetActive(false);
             countdown = 3f;
             
         }
@@ -28,10 +31,24 @@ public class TurretPlacement : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        turretShop.SetActive(true);       
+        if(buildManager.GetTurretToBuild() == null)
+        {
+            return;
+        }
+        if (turret1 != null)
+        {
+            Debug.Log("Não pode construir aqui");
+            return;
+        }
+        GameObject turretToBuild = buildManager.GetTurretToBuild();
+        turret1 = (GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
     }
     private void OnMouseEnter()
     {
+        if (buildManager.GetTurretToBuild() == null)
+        {
+            return;
+        }
         GetComponent<Renderer>().material.color = Color.gray;
     }
     private void OnMouseExit()

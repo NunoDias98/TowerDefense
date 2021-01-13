@@ -7,7 +7,9 @@ public class BalaMovement : MonoBehaviour
     private Transform target;
     private float speed = 10f;
 
-    private int dano = 1;
+    public GameObject impactEffect;
+
+    private int dano = 20;
     // Start is called before the first frame update
     public void shootTarget(Transform alvo)
     {
@@ -34,6 +36,21 @@ public class BalaMovement : MonoBehaviour
 
     void HitTarget()
     {
-        Destroy(gameObject);
+        GameObject effect = (GameObject)Instantiate(impactEffect, transform.position, transform.rotation);
+        Destroy(effect, 1f);
+        //enemyPath
+        Damage(target);
+        
+    }
+
+    void Damage(Transform enemy)
+    {
+        enemyPathing e = enemy.GetComponent<enemyPathing>();
+        if(e != null)
+        {
+            Debug.Log(dano);
+            e.TakeDamage(dano);
+        }
+
     }
 }

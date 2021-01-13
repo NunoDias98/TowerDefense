@@ -7,16 +7,33 @@ public class enemyPathing : MonoBehaviour
 {
     public float speed = 3f;
 
+
     private Transform target;
     private int wavepointIndex = 0;
 
 
-    private int hpEnemy = (WaveSpawnerLvl1.wave1 + 1) * 2;
+    public int hpEnemy = 100;
+    public int worth = 50;
 
     void Start()
     {
         target = Waypoints.waypoints[0];
         
+    }
+
+    public void TakeDamage(int amount)
+    {
+        hpEnemy -= amount;
+        if(hpEnemy <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        WaveSpawnerLvl1.currency += worth;
+        Destroy(gameObject);
     }
 
     void Update()

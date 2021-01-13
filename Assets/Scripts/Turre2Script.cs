@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turret1Script : MonoBehaviour
+public class Turre2Script : MonoBehaviour
 {
     public Transform enemy;
     public float range;
     public Transform head;
     public Transform firePos1;
-    public Transform firePos2;
     public GameObject bala;
-    public float rate = 1f;
+    public float rate = 0.5f;
     private float nextAttack;
 
 
@@ -19,7 +18,6 @@ public class Turret1Script : MonoBehaviour
     {
         //InvokeRepeating("FindTarget", 0f, 0.7f);
         nextAttack = Time.time + rate;
-        
     }
 
 
@@ -64,8 +62,6 @@ public class Turret1Script : MonoBehaviour
             {
                 Shoot(head.transform.forward);
                 nextAttack = Time.time + rate;
-                
-
             }
 
 
@@ -87,16 +83,12 @@ public class Turret1Script : MonoBehaviour
         anim.Play("Take 001");*/
 
         GameObject disparoBala1 = (GameObject)Instantiate(bala, firePos1.position, firePos1.rotation);
-        GameObject disparoBala2 = (GameObject)Instantiate(bala, firePos2.position, firePos2.rotation);
         BalaMovement bala1 = disparoBala1.GetComponent<BalaMovement>();
-        BalaMovement bala2 = disparoBala2.GetComponent<BalaMovement>();
-        if ( bala1 != null && bala2 != null)
+        if (bala1 != null)
         {
             bala1.shootTarget(enemy);
-            bala2.shootTarget(enemy);
+            
         }
-        
+
     }
 }
-
-

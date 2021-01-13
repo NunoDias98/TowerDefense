@@ -9,7 +9,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     public Transform spawn;
     
 
-    public float timeWave = 5f;
+    public float timeWave = 1f;
     private float countdown = 2f;
 
 
@@ -19,7 +19,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     private int numberOfWaves = 10;
 
     public static int currency;
-    private int money = 300;
+    private int money = 500;
 
      
     public static int vidas;
@@ -27,6 +27,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
 
     public Text hpTxt;
     public Text moneyTxt;
+
 
     // Start is called before the first frame update
     void Start()

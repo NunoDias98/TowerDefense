@@ -8,8 +8,10 @@ public class TurretPlacement : MonoBehaviour
     private float countdown = 3.5f;
 
     private Color corInicial;
+    public Color cor;
 
-    private GameObject turret1;
+    [Header("Opcional")]
+    public GameObject turret;
 
     BuildManager buildManager;
     // Start is called before the first frame update
@@ -22,6 +24,7 @@ public class TurretPlacement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (countdown <= 0f)
         {
             countdown = 3f;
@@ -29,27 +32,41 @@ public class TurretPlacement : MonoBehaviour
         }
         countdown -= Time.deltaTime;
     }
+
+    public Vector3 GetBuildPosition()
+    {
+        return transform.position;
+    }
+
     private void OnMouseDown()
     {
-        if(buildManager.GetTurretToBuild() == null)
+        if(!buildManager.CanBuild)
         {
             return;
         }
-        if (turret1 != null)
+        if (turret != null)
         {
             Debug.Log("Não pode construir aqui");
             return;
         }
-        GameObject turretToBuild = buildManager.GetTurretToBuild();
-        turret1 = (GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
+        buildManager.BuildTurretOn(this);
     }
     private void OnMouseEnter()
     {
-        if (buildManager.GetTurretToBuild() == null)
+        if (!buildManager.CanBuild)
         {
             return;
         }
-        GetComponent<Renderer>().material.color = Color.gray;
+
+        if (buildManager.HasMoney)
+        {
+            GetComponent<Renderer>().material.color = Color.gray;
+        }
+        else
+        {
+            GetComponent<Renderer>().material.color = Color.magenta;
+        }
+            
     }
     private void OnMouseExit()
     {

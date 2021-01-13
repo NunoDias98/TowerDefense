@@ -10,6 +10,7 @@ public class Turret1Script : MonoBehaviour
     public Transform firePos1;
     public Transform firePos2;
     public GameObject bala;
+
     public float rate = 1f;
     private float nextAttack;
 
@@ -67,8 +68,6 @@ public class Turret1Script : MonoBehaviour
                 
 
             }
-
-
         }
 
     }

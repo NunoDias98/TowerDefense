@@ -13,7 +13,7 @@ public class enemyPathing : MonoBehaviour
 
 
     public int hpEnemy = 100;
-    public int worth = 50;
+    public int worth = 25;
 
     void Start()
     {

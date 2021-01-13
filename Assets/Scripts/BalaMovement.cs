@@ -9,7 +9,7 @@ public class BalaMovement : MonoBehaviour
 
     public GameObject impactEffect;
 
-    private int dano = 20;
+    private int dano = 50;
     // Start is called before the first frame update
     public void shootTarget(Transform alvo)
     {
@@ -50,6 +50,7 @@ public class BalaMovement : MonoBehaviour
         {
             Debug.Log(dano);
             e.TakeDamage(dano);
+            Destroy(gameObject);
         }
 
     }

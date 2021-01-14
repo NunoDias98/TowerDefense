@@ -7187,7 +7187,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 450, y: 100}
+  m_SizeDelta: {x: 500, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1189465685
 MonoBehaviour:
@@ -7663,9 +7663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4988ac9b86a67a43ad1926816987855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 6698590635212075030, guid: b20537196702c31419039d40678b1af6, type: 3}
+  enemy: {fileID: 4085869397129016, guid: c9951ca0f61167b4593ffe21b0a089c8, type: 3}
   spawn: {fileID: 678524743}
-  timeWave: 10
   WaveTxt: {fileID: 1189465685}
   startHp: 10
   hpTxt: {fileID: 1789449192}

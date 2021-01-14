@@ -12,17 +12,19 @@ public class enemyPathing : MonoBehaviour
     private int wavepointIndex = 0;
 
 
-    public int hpEnemy = 100;
-    public int worth = 25;
+    private int hpEnemy = WaveSpawnerLvl1.wave1 * 50;
+    private int worth = 25 + (WaveSpawnerLvl1.wave1 * 5);
 
     void Start()
     {
         target = Waypoints.waypoints[0];
+        Debug.Log(hpEnemy);
         
     }
 
     public void TakeDamage(int amount)
     {
+        
         hpEnemy -= amount;
         if(hpEnemy <= 0)
         {

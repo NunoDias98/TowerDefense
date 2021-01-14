@@ -532,4 +532,3 @@ MonoBehaviour:
   firePos2: {fileID: 34579125473870865}
   bala: {fileID: 3822257001675188939, guid: f279374b659587f4a8ecf5141fabe51f, type: 3}
   rate: 1
-  nextAttack: 0

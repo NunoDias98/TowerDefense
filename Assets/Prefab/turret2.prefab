@@ -260,7 +260,6 @@ MonoBehaviour:
   firePos1: {fileID: 2599835808840798857}
   bala: {fileID: 3822257001675188939, guid: f279374b659587f4a8ecf5141fabe51f, type: 3}
   rate: 0.5
-  nextAttack: 0
 --- !u!1 &2599835809263188875
 GameObject:
   m_ObjectHideFlags: 0

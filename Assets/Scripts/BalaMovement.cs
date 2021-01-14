@@ -48,7 +48,7 @@ public class BalaMovement : MonoBehaviour
         enemyPathing e = enemy.GetComponent<enemyPathing>();
         if(e != null)
         {
-            Debug.Log(dano);
+            //Debug.Log(dano);
             e.TakeDamage(dano);
             Destroy(gameObject);
         }

@@ -9,8 +9,8 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     public Transform spawn;
     
 
-    public float timeWave = 1f;
-    private float countdown = 2f;
+    private float timeWave = 5f;
+    private float countdown = 1f;
 
 
     public static int wave1;
@@ -62,12 +62,16 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     {
         wave++;
         wave1 = wave;
-        WaveTxt.text = "Wave: " + wave.ToString() + "/" + numberOfWaves.ToString();
-        for (int i = 0; i < wave * 5; i++)
+        if(wave <= numberOfWaves)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(0.7f);
+            WaveTxt.text = "Wave: " + wave.ToString() + "/" + numberOfWaves.ToString();
+            for (int i = 0; i < wave * 2; i++)
+            {
+                SpawnEnemy();
+                yield return new WaitForSeconds(0.7f);
+            }
         }
+        
         
     }
     void SpawnEnemy()

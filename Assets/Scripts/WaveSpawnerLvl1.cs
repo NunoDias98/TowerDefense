@@ -54,6 +54,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
         }
         countdown -= Time.deltaTime;
 
+
         hpTxt.text = vidas.ToString();
         moneyTxt.text = currency.ToString() + "$";
     }
@@ -65,7 +66,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
         if(wave <= numberOfWaves)
         {
             WaveTxt.text = "Wave: " + wave.ToString() + "/" + numberOfWaves.ToString();
-            for (int i = 0; i < wave * 2; i++)
+            for (int i = 0; i < wave * 3; i++)
             {
                 SpawnEnemy();
                 yield return new WaitForSeconds(0.7f);

@@ -12,8 +12,8 @@ public class enemyPathing : MonoBehaviour
     private int wavepointIndex = 0;
 
 
-    private int hpEnemy = WaveSpawnerLvl1.wave1 * 50;
-    private int worth = 25 + (WaveSpawnerLvl1.wave1 * 5);
+    private int hpEnemy = WaveSpawnerLvl1.wave1 * 55;
+    private int worth = 25 + (WaveSpawnerLvl1.wave1 * 4);
 
     void Start()
     {

@@ -7,6 +7,10 @@ public class BuildManager : MonoBehaviour
 
     public static BuildManager instance;
     private TurretBlueprint turretToBuild;
+    private TurretPlacement TurretSpotSelected;
+
+    public TowerSelection towerSelection;
+
     public GameObject turret1Prefab;
     public GameObject turret2Prefab;
 
@@ -29,25 +33,33 @@ public class BuildManager : MonoBehaviour
     public bool HasMoney { get { return WaveSpawnerLvl1.currency >= turretToBuild.cost; } } 
 
 
-    public void BuildTurretOn(TurretPlacement turretSpot)
+    public void SelectTurretSpot(TurretPlacement TP)
     {
-        if(WaveSpawnerLvl1.currency < turretToBuild.cost)
+        if(TurretSpotSelected == TP)
         {
-            Debug.Log("Dinheiro insuficiente");
+            DeselectTurretSpot();
             return;
         }
+        TurretSpotSelected = TP;
+        turretToBuild = null;
 
-        WaveSpawnerLvl1.currency -= turretToBuild.cost;
-
-        GameObject tempTurret = (GameObject)Instantiate(turretToBuild.turretPrefab, turretSpot.transform.position, Quaternion.identity); //variavel temporaria para guardar a torre
-        turretSpot.turret = tempTurret;
-
-        GameObject tempEffect = (GameObject)Instantiate(buildEffect, turretSpot.transform.position, Quaternion.identity);
-        Destroy(tempEffect, 4f);
+        towerSelection.setTarget(TP);
+    }
+    
+    public void DeselectTurretSpot()
+    {
+        TurretSpotSelected = null;
+        towerSelection.Hide();
     }
 
-    
     public void SelectTurretToBuild(TurretBlueprint turret){
         turretToBuild = turret;
+
+        DeselectTurretSpot();
+    }
+
+    public TurretBlueprint GetTurretToBuild()
+    {
+        return turretToBuild;
     }
 }

@@ -10,8 +10,12 @@ public class TurretPlacement : MonoBehaviour
     private Color corInicial;
     public Color cor;
 
-    [Header("Opcional")]
+    [HideInInspector]
     public GameObject turret;
+    [HideInInspector]
+    public TurretBlueprint turretBlueprint;
+    [HideInInspector]
+    public bool isUpgraded = false;
 
     BuildManager buildManager;
     // Start is called before the first frame update
@@ -40,17 +44,66 @@ public class TurretPlacement : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(!buildManager.CanBuild)
-        {
-            return;
-        }
         if (turret != null)
         {
-            Debug.Log("Não pode construir aqui");
+            buildManager.SelectTurretSpot(this);
             return;
         }
-        buildManager.BuildTurretOn(this);
+        if (!buildManager.CanBuild)
+        {
+            return;
+        }
+        BuildTurret(buildManager.GetTurretToBuild());
     }
+
+    void BuildTurret(TurretBlueprint TB)
+    {
+        if (WaveSpawnerLvl1.currency < TB.cost)
+        {
+            Debug.Log("Dinheiro insuficiente");
+            return;
+        }
+
+        WaveSpawnerLvl1.currency -= TB.cost;
+
+        GameObject tempTurret = (GameObject)Instantiate(TB.turretPrefab, transform.position, Quaternion.identity); //variavel temporaria para guardar a torre
+        turret = tempTurret;
+
+        turretBlueprint = TB;
+
+        GameObject tempEffect = (GameObject)Instantiate(buildManager.buildEffect, transform.position, Quaternion.identity);
+        Destroy(tempEffect, 4f);
+    }
+
+    public void UpgradeTurret()
+    {
+        if (WaveSpawnerLvl1.currency < turretBlueprint.upgradeCost)
+        {
+            Debug.Log("Dinheiro insuficiente para dar upgrade a torre");
+            return;
+        }
+
+        WaveSpawnerLvl1.currency -= turretBlueprint.upgradeCost;
+
+        Destroy(turret);
+
+        GameObject tempTurret = (GameObject)Instantiate(turretBlueprint.upgradedPrefab, transform.position, Quaternion.identity); //variavel temporaria para guardar a torre
+        turret = tempTurret;
+
+        GameObject tempEffect = (GameObject)Instantiate(buildManager.buildEffect, transform.position, Quaternion.identity);
+        Destroy(tempEffect, 4f);
+
+        isUpgraded = true;
+    }
+
+    public void SellTurret()
+    {
+        WaveSpawnerLvl1.currency += turretBlueprint.GetSellAmout();
+
+        Destroy(turret);
+        turretBlueprint = null;
+    }
+
     private void OnMouseEnter()
     {
         if (!buildManager.CanBuild)

@@ -12,4 +12,8 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel1");
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

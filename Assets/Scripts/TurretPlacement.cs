@@ -44,6 +44,8 @@ public class TurretPlacement : MonoBehaviour
 
     private void OnMouseDown()
     {
+
+        
         if (turret != null)
         {
             buildManager.SelectTurretSpot(this);
@@ -99,6 +101,8 @@ public class TurretPlacement : MonoBehaviour
     public void SellTurret()
     {
         WaveSpawnerLvl1.currency += turretBlueprint.GetSellAmout();
+
+        isUpgraded = false;
 
         Destroy(turret);
         turretBlueprint = null;

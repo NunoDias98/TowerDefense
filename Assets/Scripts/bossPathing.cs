@@ -1,10 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class enemyPathing : MonoBehaviour
+public class bossPathing : MonoBehaviour
 {
     public float speed = 3f;
 
@@ -13,28 +11,21 @@ public class enemyPathing : MonoBehaviour
     private int wavepointIndex = 0;
 
 
-    private float hpEnemy = WaveSpawnerLvl1.wave1 * 55;
-    private float currenthealth;
-    private int worth = 25 + (WaveSpawnerLvl1.wave1 * 4);
-
-    public Image healthBar;
-
+    private int hpBoss = 50;
+    private int worth = 50;
 
     void Start()
     {
         target = Waypoints.waypoints[0];
-        Debug.Log(hpEnemy);
-        currenthealth = hpEnemy;
+        Debug.Log(hpBoss);
 
     }
 
     public void TakeDamage(int amount)
     {
 
-        currenthealth -= amount;
-
-        healthBar.fillAmount = currenthealth / hpEnemy;
-        if(currenthealth <= 0)
+        hpBoss -= amount;
+        if (hpBoss <= 0)
         {
             Die();
         }
@@ -52,33 +43,28 @@ public class enemyPathing : MonoBehaviour
         transform.LookAt(dir + transform.position);
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
-        if(Vector3.Distance(transform.position, target.position) <= 0.1f)
+        if (Vector3.Distance(transform.position, target.position) <= 0.1f)
         {
             nextWayPoint();
         }
-        
-        //if (WaveSpawnerLvl1.vidas < 1)
-        //{
-        
-        //    Lose();
-        //}
+
+        if (WaveSpawnerLvl1.vidas < 1)
+        {
+            Time.timeScale = 0f;
+            //pop up perdeu
+        }
     }
 
     void nextWayPoint()
     {
-        if(wavepointIndex >= Waypoints.waypoints.Length - 1)
+        if (wavepointIndex >= Waypoints.waypoints.Length - 1)
         {
             WaveSpawnerLvl1.vidas--;
             Debug.Log(WaveSpawnerLvl1.vidas);
-            Destroy(gameObject);   
+            Destroy(gameObject);
             return;
         }
         wavepointIndex++;
         target = Waypoints.waypoints[wavepointIndex];
     }
-
-    //public void Lose()
-    //{
-    //    SceneManager.LoadScene("Menu");
-    //}
 }

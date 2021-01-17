@@ -2,20 +2,48 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class enemyPathing : MonoBehaviour
 {
     public float speed = 3f;
 
+
     private Transform target;
     private int wavepointIndex = 0;
 
-    public Text hp;
+
+    private float hpEnemy = WaveSpawnerLvl1.wave1 * 55;
+    private float currenthealth;
+    private int worth = 25 + (WaveSpawnerLvl1.wave1 * 4);
+
+    public Image healthBar;
+
 
     void Start()
     {
         target = Waypoints.waypoints[0];
-        
+        Debug.Log(hpEnemy);
+        currenthealth = hpEnemy;
+
+    }
+
+    public void TakeDamage(int amount)
+    {
+
+        currenthealth -= amount;
+
+        healthBar.fillAmount = currenthealth / hpEnemy;
+        if(currenthealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        WaveSpawnerLvl1.currency += worth;
+        Destroy(gameObject);
     }
 
     void Update()
@@ -28,23 +56,29 @@ public class enemyPathing : MonoBehaviour
         {
             nextWayPoint();
         }
-        /*
-        if (WaveSpawnerLvl1.vidas < 1)
-        {
-            Time.timeScale = 0f;
-            //pop up perdeu
-        }*/
+        
+        //if (WaveSpawnerLvl1.vidas < 1)
+        //{
+        
+        //    Lose();
+        //}
     }
 
     void nextWayPoint()
     {
         if(wavepointIndex >= Waypoints.waypoints.Length - 1)
         {
-            //WaveSpawnerLvl1.vidas--;
+            WaveSpawnerLvl1.vidas--;
+            Debug.Log(WaveSpawnerLvl1.vidas);
             Destroy(gameObject);   
             return;
         }
         wavepointIndex++;
         target = Waypoints.waypoints[wavepointIndex];
     }
+
+    //public void Lose()
+    //{
+    //    SceneManager.LoadScene("Menu");
+    //}
 }

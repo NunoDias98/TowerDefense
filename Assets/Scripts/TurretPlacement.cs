@@ -9,7 +9,6 @@ public class TurretPlacement : MonoBehaviour
 
     private Color corInicial;
     public Color cor;
-
     public GameObject warning;
 
     [HideInInspector]

@@ -15,7 +15,7 @@ public class enemyPathing : MonoBehaviour
 
     private float hpEnemy = WaveSpawnerLvl1.wave1 * 55;
     private float currenthealth;
-    private int worth = 20 + (WaveSpawnerLvl1.wave1 * 2);
+    private int worth = 15 + (WaveSpawnerLvl1.wave1 * 2);
 
     public Image healthBar;
 

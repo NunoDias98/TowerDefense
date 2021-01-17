@@ -404,8 +404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: 600, y: 50}
+  m_AnchoredPosition: {x: -19.67, y: -75}
+  m_SizeDelta: {x: 489.5963, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &846784965
 MonoBehaviour:
@@ -426,7 +426,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Escolha de N\xEDvel"
+  m_text: 'Choose Level
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 006f656372e6cf548b3221c8b9a0050b, type: 2}
   m_sharedMaterial: {fileID: 1539225266598125840, guid: 006f656372e6cf548b3221c8b9a0050b,
@@ -1073,7 +1075,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nivel 1
+  m_text: Level 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 006f656372e6cf548b3221c8b9a0050b, type: 2}
   m_sharedMaterial: {fileID: 1539225266598125840, guid: 006f656372e6cf548b3221c8b9a0050b,

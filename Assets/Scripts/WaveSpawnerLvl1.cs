@@ -51,12 +51,14 @@ public class WaveSpawnerLvl1 : MonoBehaviour
         pauseCanvas.SetActive(true);
         loseCanvas.SetActive(false);
         wonCanvas.SetActive(false);
+
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Time.timeScale = 1f;
+        
 
 
         if (countdown <= 0f && wave <= numberOfWaves)

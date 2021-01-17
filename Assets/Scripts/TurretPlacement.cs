@@ -10,6 +10,8 @@ public class TurretPlacement : MonoBehaviour
     private Color corInicial;
     public Color cor;
 
+    public GameObject warning;
+
     [HideInInspector]
     public GameObject turret;
     [HideInInspector]
@@ -63,6 +65,9 @@ public class TurretPlacement : MonoBehaviour
         if (WaveSpawnerLvl1.currency < TB.cost)
         {
             Debug.Log("Dinheiro insuficiente");
+            warning.SetActive(true);
+            StartCoroutine(warningMsg());
+            
             return;
         }
 
@@ -82,6 +87,8 @@ public class TurretPlacement : MonoBehaviour
         if (WaveSpawnerLvl1.currency < turretBlueprint.upgradeCost)
         {
             Debug.Log("Dinheiro insuficiente para dar upgrade a torre");
+            warning.SetActive(true);
+            StartCoroutine(warningMsg());
             return;
         }
 
@@ -131,4 +138,10 @@ public class TurretPlacement : MonoBehaviour
 
     }
 
+    IEnumerator warningMsg()
+    {
+        yield return new WaitForSeconds(2);
+
+        warning.SetActive(false);
+    }
 }

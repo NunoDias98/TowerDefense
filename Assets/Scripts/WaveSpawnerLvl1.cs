@@ -20,7 +20,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     private int numberOfWaves = 10;
 
     public static int currency;
-    private int money = 50000;
+    private int money = 500;
 
      
     public static int vidas;
@@ -58,6 +58,7 @@ public class WaveSpawnerLvl1 : MonoBehaviour
     {
         Time.timeScale = 1f;
 
+
         if (countdown <= 0f && wave <= numberOfWaves)
         {
             StartCoroutine(StartWave());
@@ -71,7 +72,6 @@ public class WaveSpawnerLvl1 : MonoBehaviour
 
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-        Debug.Log(enemies.Length);
 
         if (WaveSpawnerLvl1.vidas < 1)
         {

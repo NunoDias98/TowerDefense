@@ -106,5 +106,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441f0c5dfa7f3984784e7d0b39d7d5b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  red: {r: 1, g: 0, b: 0, a: 0}
+  cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 7017610324339588958, guid: 99a51f61485d0fb4287c050589d6c05c, type: 3}
   turret: {fileID: 0}
+  turretBlueprint:
+    turretPrefab: {fileID: 0}
+    cost: 0
+    upgradedPrefab: {fileID: 0}
+    upgradeCost: 0
+  isUpgraded: 0

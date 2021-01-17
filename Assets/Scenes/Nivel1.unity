@@ -259,6 +259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -373,6 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -487,6 +489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -601,6 +604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -872,6 +876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -986,6 +991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -1193,6 +1199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -1307,6 +1314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -1550,6 +1558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -1664,6 +1673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -1910,6 +1920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -2024,6 +2035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -2323,6 +2335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -2568,6 +2581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -2760,6 +2774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -2874,6 +2889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -3018,6 +3034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -3262,6 +3279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -3376,6 +3394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -3490,6 +3509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -3733,6 +3753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -3940,6 +3961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -4185,6 +4207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -4536,6 +4559,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -4780,6 +4804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -4894,6 +4919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5038,6 +5064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5251,6 +5278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5365,6 +5393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5479,6 +5508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5623,6 +5653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5737,6 +5768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5851,6 +5883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -5965,6 +5998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6145,6 +6179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6259,6 +6294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6373,6 +6409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6487,6 +6524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6601,6 +6639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6715,6 +6754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6829,6 +6869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -6943,6 +6984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -7057,6 +7099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -7171,6 +7214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -7480,6 +7524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -7687,6 +7732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -7801,6 +7847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -8124,6 +8171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -8425,6 +8473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -8719,6 +8768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -8833,6 +8883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -9115,6 +9166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -9359,6 +9411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -9473,6 +9526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -9587,6 +9641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -9701,6 +9756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -9845,6 +9901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -10037,6 +10094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -10138,6 +10196,7 @@ RectTransform:
   - {fileID: 1970310777}
   - {fileID: 1105089616}
   - {fileID: 1789449191}
+  - {fileID: 7245378683320288318}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10253,6 +10312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -10446,6 +10506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -10707,6 +10768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -10821,6 +10883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -10935,6 +10998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -11049,6 +11113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -11241,6 +11306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -11355,6 +11421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -11469,6 +11536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -11583,6 +11651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -11805,6 +11874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -11919,6 +11989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12033,6 +12104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12147,6 +12219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12261,6 +12334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12375,6 +12449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12489,6 +12564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12603,6 +12679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12717,6 +12794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -12831,6 +12909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -13038,6 +13117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -13316,6 +13396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -13601,6 +13682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -13791,6 +13873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -13905,6 +13988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -14097,6 +14181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -14211,6 +14296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -14325,6 +14411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -14568,6 +14655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cor: {r: 0, g: 0, b: 0, a: 0}
+  warning: {fileID: 0}
   turret: {fileID: 0}
   turretBlueprint:
     turretPrefab: {fileID: 0}
@@ -14821,6 +14909,131 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1001 &7245378683320288317
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1482433371}
+    m_Modifications:
+    - target: {fileID: 7017610324339588958, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_Name
+      value: WarningTxt
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -165.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 566.9956
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 82.01691
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99a51f61485d0fb4287c050589d6c05c, type: 3}
+--- !u!224 &7245378683320288318 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7466417177353114730, guid: 99a51f61485d0fb4287c050589d6c05c,
+    type: 3}
+  m_PrefabInstance: {fileID: 7245378683320288317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &7549030787279449496
 MonoBehaviour:
   m_ObjectHideFlags: 0
